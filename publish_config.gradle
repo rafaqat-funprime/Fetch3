@@ -8,7 +8,7 @@ afterEvaluate {
                 artifactId releaseArtifactId
                 version releaseVersion
 
-                artifact("${project.buildDir}/outputs/aar/${project.name}-release.aar") {
+                artifact("${project.buildDir}/outputs/aar/${project.name}-debug.aar") {
                     extension "aar"
                 }
 
